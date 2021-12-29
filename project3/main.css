@@ -1,0 +1,151 @@
+@media (max-width: 600px) {
+    #nav-bar {
+      display: none;
+    }
+  }
+#header {
+    position: sticky;
+    top: 0;
+    background-color: rgb(213, 216, 212);
+    height:30px;
+    padding: 20px 20px 20px 5px;
+}
+#header-img {
+    height: 30px;
+}
+#title {
+    margin-left: 33px;
+    margin-top: -35px;
+    font-family: 'Bebas Neue', cursive;
+    font-size: 200%;
+}
+html {
+    background-color: rgb(213, 216, 212);
+    border-right: solid;
+    border-left: solid;
+    border-left-width: 40pt;
+    border-right-width: 40pt;
+    border-color: darkslategrey;
+}
+footer {
+    background-color:rgb(213, 216, 212);
+    padding: 20px 40px 40px 40px;
+    color:black;
+    text-align: center;
+}
+h3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 180%;
+}
+/*****************NAVBAR***************/
+
+#nav-bar {
+    margin-left: 450px;
+    margin-top: -45px;
+    margin-right: -75px;
+}
+.nav-link {
+    display: flex;
+    justify-content: space-evenly;
+}
+.one {
+    display: inline;
+    color:black;
+}
+.two {
+    display: inline;
+    color:black;
+}
+.three {
+   display: inline;
+   color:black;
+}
+
+
+/****************FORM********************/
+
+#form{
+    padding-bottom: 100px;
+}
+#email {
+    display: block;
+    margin-left: 480px;
+    margin-bottom: 15px;
+}
+#submit {
+    display: block;
+    margin-left:512px;
+}
+#form-title {
+    text-align: center;
+    font-family: 'Bebas Neue', cursive;
+    font-size:300%;
+}
+
+
+/******************FEATURES********************/
+#features {
+    margin-left: 150px;
+    margin-right:150px;
+    margin-bottom: 100px;
+    border:solid;
+    border-width:10pt;
+    border-radius:40px;
+    padding: 20px 30px 30px 30px;
+    border-color: darkslategrey;
+}
+#feature1 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250%;
+    margin-bottom: -20px;
+}
+#feature2 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250%;
+    margin-bottom: -20px;
+}
+#feature3 {
+    font-family: 'Bebas Neue', cursive;
+    font-size: 250%;
+    margin-bottom: -20px;
+}
+
+/*****************HOWITWORKS*******************/
+#works {
+    margin-left: 290px;
+    margin-bottom: 100px;
+}
+
+/*****************PRICING**********************/
+#pricing {
+    margin-left: 57px;
+    margin-bottom: 100px;
+}
+#modelone {
+    display:inline-block;
+    border:solid;
+    border-width:5pt;
+    border-color: darkslategrey;
+    padding: 10px;
+    padding-right:40px;
+    border-radius:40px;
+}
+#modeltwo {
+    display:inline-block;
+    margin-left: 150px;
+    border:solid;
+    border-width:5pt;
+    border-color: darkslategrey;
+    padding: 10px;
+    padding-right:25px;
+    border-radius:40px;
+}
+#modelthree {
+    display:inline-block;
+    margin-left: 150px;
+    border:solid;
+    border-width:5pt;
+    border-color: darkslategrey;
+    padding: 10px;
+    border-radius:40px;
+}
